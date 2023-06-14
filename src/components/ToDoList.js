@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from 'uuid';
 import ToDoItem from './ToDoItem';
 import InputTodo from './InputTodo';
 import '../style/app.css';
-import Modal from './Modal';
+// import Modal from './Modal';
 
 const Todo = () => {
   const [todos, setTodos] = useState([
@@ -65,7 +65,7 @@ const Todo = () => {
   };
   return (
     <div className="todocontainer">
-      <Modal />
+      {/* <Modal /> */}
       <h1 className="header">ToDoS</h1>
       <InputTodo addTodoItem={addTodoItem} />
       <ul className="todolist">
